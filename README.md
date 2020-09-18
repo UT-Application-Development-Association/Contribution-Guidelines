@@ -10,8 +10,8 @@ This document serves as a basic guideline on how to contribute to ADA's open-sou
     * [git pull requests](#git-pull-requests)
 * [Optional settings](#Optional-settings)
     * [Install Vscode](#Install-Vscode)
-    * [Install Vscode](#Install-Vscode)
-    * [Install node.js & npm](#Install-node.js-&-npm)
+    * [Install WebStorm](#install-webstorm)
+    * [Install node.js & npm](#install-nodejs--npm)
 
 
 # Required settings
