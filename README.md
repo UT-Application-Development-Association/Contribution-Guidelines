@@ -71,7 +71,7 @@ Vscode is one of the easiest and multi-purpose IDEs/text editors, for web front-
 ## Install WebStorm
 https://www.jetbrains.com/webstorm/download
 
-For developers who prefer ide in JetBrains-style, WebStorm is also a great and smart IDE for web development.
+For developers who prefer IDE in JetBrains-style, WebStorm is also a great and smart IDE for web development.
 ## Install node.js & npm
 ### Linux & WSL
 Go to https://nodejs.org/en/download, right-click on the `64bit` button next to `Linux Binaries (x64)`, Then select `copy link address`.  
@@ -100,3 +100,4 @@ After you are inside the bin folder, execute this command
 
 Then restart your terminal. You should be able to use `node` and `npm` command now. 
 ### Mac
+For mac developers, the installation is on [node installer](https://nodejs.org/en/download/).  Pick the extension with pkg and follow the prompt, then both node and npm will be installed on your machine.
