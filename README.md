@@ -3,15 +3,15 @@ This document serves as a basic guideline on how to contribute to ADA's open-sou
 
 # Table of contents
 * [Required settings](#Required-settings)
-    * [Setup Github account](##Setup-Github-account)
-    * [Setup a command-line terminal](##Setup-a-command-line-terminal)
-    * [Install git](##Install-git)
-    * [git basic usages](##git-basic-usages)
-    * [git pull requests](##git-pull-requests)
+    * [Setup Github account](#Setup-Github-account)
+    * [Setup a command-line terminal](#Setup-a-command-line-terminal)
+    * [Install git](#Install-git)
+    * [git basic usages](#git-basic-usages)
+    * [git pull requests](#git-pull-requests)
 * [Optional settings](#Optional-settings)
-    * [Install Vscode](##Install-Vscode)
-    * [Install Vscode](##Install-Vscode)
-    * [Install node.js & npm](##Install-node.js-&-npm)
+    * [Install Vscode](#Install-Vscode)
+    * [Install Vscode](#Install-Vscode)
+    * [Install node.js & npm](#Install-node.js-&-npm)
 
 
 # Required settings
