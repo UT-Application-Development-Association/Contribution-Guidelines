@@ -36,20 +36,42 @@ Follow the steps until you reach the `Uninstalling Linux distros using Settings`
 git is built-in in any Linux distributions.
 Type `git --help` in terminal to double-check.
 ### Mac
-(TO BE FILLED BY DINO)
+There are several ways to install git on MacOs
+1. If you have already installed Xcode then the git will automatically be installed to the system
+2. Download the installer from [Git Installer](https://sourceforge.net/projects/git-osx-installer/files/) and follow prompt
+
+You can verify the installation by typing `git --version` on terminal
 ### Windows
 If you followed the terminal setup above, then you should have git built-in in your WSL
 
 ## git basic usages
 
 ## git pull requests
+Branching is a powerful feature supported by git.  The workflow of our project will heavily rely on the branch.
+There are two branches will be created by the lead before project start. That are **master** & **dev**.
++ master - This is the branch designed to store code for final release
++ dev - This is the branch designed to store code with the latest progress  
 
+The following workflow will be applied to all of future ADA's projects.
+1. Clone the repository to your local machine(i.e your laptop)
+2. Create a new branch by typing `git branch <branch name>`
+3. Switch to your branch `git checkout -b <branch name>`
+4. **When you finish your work you need to push the work to your own branch instead of pushing to the master or dev**
+This is done by typing `git push origin <branch name>`
+5. You can go to the repository page to check your work after you pushed your work.  Under the branch of the page you can see varies of branches, you need to go to the branch created by you.
+6. When you are confident to submit your work for review you need to create a pull request so that the lead or person doing the review can decide which part of your code will be merged.  When you create a pull request
+pick the **dev** as the base, choose **your branch** as the compare.  At this stage you can safely ignore any warning for conflicted code.  The person review your code will decide how to resolve it.
+7. Lastly, if the reviewer accepted your pull request or leave comment to your pull request you will receive a email about it.  
 # Optional settings
 
 ## Install Vscode
 https://code.visualstudio.com  
 Vscode is one of the easiest and multi-purpose IDEs/text editors, for web front-end, JavaScript, Python, C/C++ and more. If you don't know how to start, you can start from it. 
 
+## Install WebStorm
+https://www.jetbrains.com/webstorm/download
+
+For developers who prefer ide in JetBrains-style, WebStorm is also a great and smart ide for web development.
 ## Install node.js & npm
 ### Linux & WSL
 
