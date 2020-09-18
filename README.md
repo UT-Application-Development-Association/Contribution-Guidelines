@@ -52,5 +52,29 @@ Vscode is one of the easiest and multi-purpose IDEs/text editors, for web front-
 
 ## Install node.js & npm
 ### Linux & WSL
+Go to https://nodejs.org/en/download, right-click on the `64bit` button next to `Linux Binaries (x64)`, Then select `copy link address`.  
+In your terminal, find a place where you would download nodejs, run 
 
+    wget <The link you just copied>
+
+for example, 
+
+    wget https://nodejs.org/dist/v12.18.4/node-v12.18.4-linux-x64.tar.xz
+
+**Note: ctrl-c and ctrl-v won't work in most terminals, use right-click or ctrl-shift-v.**  
+After download, type `ls` to double-check you have node's package downloaded.  
+The next step is to unzip the package: 
+
+    tar -xvf <Name of the tar.xz file you downloaded>
+
+Type `ls`, you should be able to see the unzipped directory of node.  
+Type 
+
+    cd <the directory name of node>/bin
+
+After you are inside the bin folder, execute this command
+
+    echo PATH=\$PATH:$(pwd) >> ~/.bashrc
+
+Then restart your terminal. You should be able to use `node` and `npm` command now. 
 ### Mac
