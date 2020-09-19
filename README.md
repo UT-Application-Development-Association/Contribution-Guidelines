@@ -9,7 +9,7 @@ This document serves as a basic guideline on how to contribute to ADA's open-sou
     * [git basic usages](#git-basic-usages)
     * [git pull requests](#git-pull-requests)
 * [Optional settings](#Optional-settings)
-    * [Install Vscode](#Install-Vscode)
+    * [Install Vscode](#install-vscode)
     * [Install WebStorm](#install-webstorm)
     * [Install node.js & npm](#install-nodejs--npm)
 
@@ -83,10 +83,21 @@ You can think of `origin` as which website you push it on. Most of the time it w
 For this repository `Contribution-Guidelines`, you probably don't have a permission to push. Don't worry about it, you will have real permission when you actually contribute. 
 
 #### git pull
-So if someone pushs their changes, after you clone the repo, your local repo and the online repo would be out of sync. How do we update the new changes
+So if someone pushs their changes, after you clone the repo, your local repo and the online repo would be out of sync. How do we update the new changes to our local machine?   
+
+      git pull
+      
+Will do just that. Or, 
+
+      git pull origin <name of your branch>
+      
+This is a better command since it only pulls from one branch. 
 
 ## git pull requests
-Branching is a powerful feature supported by git.  The workflow of our project will heavily rely on the branch.
+Branching is a powerful feature supported by git.  
+You can think of a branches as different versions of the project/repo.
+
+The workflow of our project will heavily rely on the branch.
 Two branches will be created by the lead before the project start. That are **master** & **dev**.
 + master - This is the branch designed to store code for final release
 + dev - This is the branch designed to store code with the latest progress  
@@ -101,6 +112,7 @@ This is done by typing `git push origin <branch name>`
 6. When you are confident to submit your work for review you need to create a pull request so that the lead or person doing the review can decide which part of your code will be merged.  When you create a pull request
 pick the **dev** as the base, choose **your branch** as the compare.  At this stage, you can safely ignore any warning for conflicted code.  The person who reviews your code will decide how to resolve it.
 7. Lastly, if the reviewer accepted your pull request or leave a comment to your pull request you will receive an email about it.  
+
 # Optional settings
 
 ## Install Vscode
