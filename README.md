@@ -21,7 +21,7 @@ Go to https://github.com and make yourself an account. Github is what we usually
 
 ## Setup a command-line terminal
 ### Linux & Mac
-Open the `Terminal` app. Done.
+Open the `Terminal` app. Done ;)
 ### Windows (**WSL**)
 If you use Windows, I assume you use Windows 10. Then you may follow this instruction: https://www.windowscentral.com/install-windows-subsystem-linux-windows-10   
 This will install Windows Subsystem for Linux (**WSL**) for you. It is very useful in software development on Windows.   
@@ -32,6 +32,8 @@ Follow the steps until you reach the `Uninstalling Linux distros using Settings`
 *Note: I strongly recommend to use a terminal emulator for your Ubuntu if you are on Windows. Examples: [Terminus](https://eugeny.github.io/terminus/), [Hyper](https://hyper.is/), [ConEmu](https://conemu.github.io/)*
 
 ## Install git
+git is a tool for developers to collabrate, anytime, anywhere(with internet).
+
 ### Linux
 git is built-in in any Linux distributions.
 Type `git --help` in terminal to double-check.
@@ -45,6 +47,43 @@ You can verify the installation by typing `git --version` on terminal
 If you followed the terminal setup above, then you should have git built-in in your WSL
 
 ## git basic usages
+You will need to learn some of the basic commands of git in order to contribute. Although most of the IDEs have made git easier with their interfaces, it is necessary to learn git from the command line :) Here I will present a general workflow of git:  
+#### git clone
+Repository is a place to store the code/files. Repo is kind of like a directory. When someone initialize a repo online, you may use the `clone` command to copy the code onto your machine.  
+For example, if you scroll up, you should be able to see a green button *code*. Click on that, and copy the https link.  
+Then, open your terminal, find a place where you would want to clone the repo, run this command: 
+
+      git clone <The link you just copied>
+      
+It should prompts you for your username and password. Enter those info then you should be successful in cloning.  
+Now `cd` into the repo you just cloned. Try type `git status` in the terminal, what do you see? 
+#### git add & commit
+After you cloned, you should be able to make some changes to the files. Try changing something :) After your change, type `git status` again, you should be able to see the name of the files you changed, in red. The next step is to 
+
+      git add <name of a changed file>
+      
+to tell git that it should pay attention to this file. Type `git status` again, what's the color now?  
+The file that was `git add`ed is now in the staging area. If you make a git commit now, the files that are in staging area will be commited.  
+But what's commit? You can think of a commit as "some changes to the repo". To make a commit after some git add, do this: 
+
+      git commit -m "<Some commit message>"
+      
+Every commit needs a message. A very very important thing about commit message is it needs to be meaningful! Please don't write your commit message like *"some changes"*. Do write something like *"add feature <blabla> using <some method>"* or *"fixed a bug of title image display incorrectly"*, etc. This is very important when someone needs to look at the commit history.
+
+#### git push
+The very next step to contribute is to sync your changes online. git achieves this by the `push` command. 
+
+      git push
+      
+Or write it better: 
+
+      git push origin <branch name>
+      
+You can think of `origin` as which website you push it on. Most of the time it would be `origin`, you don't need to worry about it for now. For branch, we will discuss about that in pull requests.  
+For this repository `Contribution-Guidelines`, you probably don't have a permission to push. Don't worry about it, you will have real permission when you actually contribute. 
+
+#### git pull
+So if someone pushs their changes, after you clone the repo, your local repo and the online repo would be out of sync. How do we update the new changes
 
 ## git pull requests
 Branching is a powerful feature supported by git.  The workflow of our project will heavily rely on the branch.
