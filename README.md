@@ -106,7 +106,7 @@ Two branches will be created by the lead before the project start. That are **ma
 The following workflow will be applied to all of the future ADA's projects.
 1. Clone the repository to your local machine(i.e your laptop)
 2. Create a new branch by typing `git branch <branch name>`
-3. Switch to your branch `git checkout <branch name>`
+3. Switch to your branch `git checkout -b <branch name>`
 4. **When you finish your work you need to push the work to your branch instead of pushing to the master or dev**
 This is done by typing `git push origin <branch name>`
 5. You can go to the repository page to check your work after you pushed your work.  Under the branch of the page, you can see various branches, you need to go to the branch created by you.
