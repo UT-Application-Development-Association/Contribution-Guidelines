@@ -12,6 +12,8 @@ This document serves as a basic guideline on how to contribute to ADA's open-sou
     * [Install Vscode](#install-vscode)
     * [Install WebStorm](#install-webstorm)
     * [Install node.js & npm](#install-nodejs--npm)
+* [Git advanced tutorial](Git-advanced.md)
+* [Tutorial resources](Tutorial-resources.md)
 
 
 # Required settings
@@ -23,7 +25,7 @@ Go to https://github.com and make yourself an account. Github is what we usually
 ### Linux & Mac
 Open the `Terminal` app. Done ;)
 ### Windows (**WSL**)
-For Windows, both cmd and WSL can be used. I recommand WSL as Linux is more development-preferable. cmd is built-in in Windows.  
+For Windows, both cmd and WSL can be used. I recommend WSL as Linux is more development-preferable. cmd is built-in in Windows.  
 For user who wants to install WSL, I assume you use Windows 10. Then you may follow this instruction: https://www.windowscentral.com/install-windows-subsystem-linux-windows-10   
 This will install Windows Subsystem for Linux (**WSL**) for you. It is very useful in software development on Windows.   
 Follow the steps until you reach the `Uninstalling Linux distros using Settings` section (plz don't uninstall). Now you should be able to use Ubuntu (A distribution of Linux) on Windows 10. 
