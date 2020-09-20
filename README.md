@@ -23,7 +23,8 @@ Go to https://github.com and make yourself an account. Github is what we usually
 ### Linux & Mac
 Open the `Terminal` app. Done ;)
 ### Windows (**WSL**)
-If you use Windows, I assume you use Windows 10. Then you may follow this instruction: https://www.windowscentral.com/install-windows-subsystem-linux-windows-10   
+For Windows, both cmd and WSL can be used. I recommand WSL as Linux is more development-preferable. cmd is built-in in Windows.  
+For user who wants to install WSL, I assume you use Windows 10. Then you may follow this instruction: https://www.windowscentral.com/install-windows-subsystem-linux-windows-10   
 This will install Windows Subsystem for Linux (**WSL**) for you. It is very useful in software development on Windows.   
 Follow the steps until you reach the `Uninstalling Linux distros using Settings` section (plz don't uninstall). Now you should be able to use Ubuntu (A distribution of Linux) on Windows 10. 
 
