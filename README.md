@@ -47,15 +47,15 @@ You can verify the installation by typing `git --version` on terminal
 If you followed the terminal setup above, then you should have git built-in in your WSL
 
 ## git basic usages
-You will need to learn some of the basic commands of git in order to contribute. Although most of the IDEs have made git easier with their interfaces, it is necessary to learn git from the command line :) Here I will present a general workflow of git:  
+You will need to learn some of the basic commands of git to contribute. Although most of the IDEs have made git easier with their interfaces, it is necessary to learn git from the command line :) Here I will present a general workflow of git:  
 #### git clone
-A repository is a place to store the code/files. Repo is kind of like a directory. When someone initialize a repo online, you may use the `clone` command to copy the code onto your machine.  
+A repository is a place to store the code/files. Repo is kind of like a directory. When someone initializes a repo online, you may use the `clone` command to copy the code onto your machine.  
 For example, if you scroll up, you should be able to see a green button *code*. Click on that, and copy the https link.  
 Then, open your terminal, find a place where you would want to clone the repo, run this command: 
 
       git clone <The link you just copied>
       
-It should prompts you for your username and password. Enter that info then you should be successful in cloning.  
+It should prompt you for your username and password. Enter that info then you should be successful in cloning.  
 Now `cd` into the repo you just cloned. Try type `git status` in the terminal, what do you see? 
 #### git add & commit
 After you cloned, you should be able to make some changes to the files. Try changing something :) After your change, type `git status` again, you should be able to see the name of the files you changed, in red. The next step is to 
@@ -79,8 +79,8 @@ Or write it better:
 
       git push origin <branch name>
       
-You can think of `origin` as which website you push it on. Most of the time it would be `origin`, you don't need to worry about it for now. For branch, we will discuss about that in pull requests.  
-For this repository `Contribution-Guidelines`, you probably don't have permission to push. Don't worry about it, you will have real permission when you actually contribute. 
+You can think of `origin` as which website you push it on. Most of the time it would be `origin`, you don't need to worry about it for now. For instruction on branches, we will discuss that in pull requests.  
+For this repository `Contribution-Guidelines`, you probably don't have permission to push. Don't worry about it, you will have real permission to contribute. 
 
 #### git pull
 So if someone pushes their changes, after you clone the repo, your local repo and the online repo would be out of sync. How do we update the new changes to our local machine?   
