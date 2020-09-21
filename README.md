@@ -1,6 +1,8 @@
 # Contribution-Guidelines
 This document serves as a basic guideline on how to contribute to ADA's open-source projects. If you are a pure beginner, don't worry, this document will help you get started :)
 
+**Pull requests are welcomed!** 
+
 # Table of contents
 * [Required settings](#Required-settings)
     * [Setup Github account](#Setup-Github-account)
