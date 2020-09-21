@@ -118,6 +118,8 @@ This is done by typing `git push origin <branch name>`
 pick the **dev** as the base, choose **your branch** as the compare.  At this stage, you can safely ignore any warning for conflicted code.  The person who reviews your code will decide how to resolve it.
 7. Lastly, if the reviewer accepted your pull request or leave a comment to your pull request you will receive an email about it.  
 
+**Now you know how to do pull requests, you can start by trying to make a pull request to this repo! :)**
+
 # Optional settings
 
 ## Install Vscode
