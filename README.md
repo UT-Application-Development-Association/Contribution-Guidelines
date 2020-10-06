@@ -32,7 +32,7 @@ For user who wants to install WSL, I assume you use Windows 10. Then you may fol
 This will install Windows Subsystem for Linux (**WSL**) for you. It is very useful in software development on Windows.   
 Follow the steps until you reach the `Uninstalling Linux distros using Settings` section (plz don't uninstall). Now you should be able to use Ubuntu (A distribution of Linux) on Windows 10. 
 
-*Note that your windows files are under /mnt/. You can use `cd /mnt/c` to access your files in Disk C:*
+*Note that your windows files are under /mnt/. You can use `cd /mnt/c` to access your files in Disk C:. More info can be found at https://www.howtogeek.com/261383/how-to-access-your-ubuntu-bash-files-in-windows-and-your-windows-system-drive-in-bash/*
 
 *Note: I strongly recommend to use a terminal emulator for your Ubuntu if you are on Windows. Examples: [Terminus](https://eugeny.github.io/terminus/), [Hyper](https://hyper.is/), [ConEmu](https://conemu.github.io/)*
 
